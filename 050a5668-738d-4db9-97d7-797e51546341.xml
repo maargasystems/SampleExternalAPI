@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EquipmentAndSupplyOrder xmlns:f="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMContact" xmlns:g="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMEquipmentSupplyOrderItem" xmlns:h="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientAllergy" xmlns:i="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientSafetyIssue" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:j="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMHealthCard" xmlns:k="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientDiagnosis" xmlns:a="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMEquipmentSupplyOrderHeader" xmlns:l="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMDiagnosisEncode" xmlns:b="http://Oaccac.HPG.Biztalk.Schemas.MessageContracts.CCMEquipmentSupplyOrderRequest" xmlns:m="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientRiskCode" xmlns:c="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.KeyValue" xmlns:d="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMAddress" xmlns:e="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientDemographics" Version="2.13">
+	<MessageTrackingID>050a5668-738d-4db9-97d7-797e51546341</MessageTrackingID>
+	<Sender>
+		<Organization Code="NW" Type="CCAC">
+			<Name>North West LHIN</Name>
+			<OwnerOrganization Code="NW" Type="CCAC">
+				<Name>North West LHIN</Name>
+			</OwnerOrganization>
+		</Organization>
+	</Sender>
+	<Destination>
+		<Organization Code="37-MEGA-E" Type="Vendor">
+			<Name>MEDIGAS - Equipment</Name>
+			<OwnerOrganization Code="NW" Type="CCAC">
+				<Name>North West LHIN</Name>
+			</OwnerOrganization>
+		</Organization>
+	</Destination>
+	<CcacCode>NW</CcacCode>
+	<TransmissionDateTime>2022-01-26T10:01:11.259-05:00</TransmissionDateTime>
+	<Order>
+		<OrganizationCode>37-MEGA-E</OrganizationCode>
+		<PurchaseOrderNumber>10404357.1</PurchaseOrderNumber>
+		<PurchaseOrderDateTime>2022-01-10T10:01:11.259-05:00</PurchaseOrderDateTime>
+		<PurchaseOrderCancelDateTime>0001-01-01T10:01:11.259-05:00</PurchaseOrderCancelDateTime>
+		<RequestType>E &amp; S - Finance Charge Update</RequestType>
+		<DeliveryOrPickup>
+			<Delivery>
+				<DeliveryDateTime>2022-01-11T10:01:11.259-05:00</DeliveryDateTime>
+				<DeliveryTimeInstructions/>
+				<DeliveryPriority>Regular</DeliveryPriority>
+				<DeliveryPriorityInstructions>Call patient's brother to arrange delivery time
+Clinton: (807) 624-8444 
+CLIENT WEIGHT 88KGS</DeliveryPriorityInstructions>
+				<ShippingAddress>
+					<Type>Shipping</Type>
+					<BuildingName/>
+					<SuiteNumber>24</SuiteNumber>
+					<StreetNumber>111</StreetNumber>
+					<StreetName>Southern Ave </StreetName>
+					<PostalCode>P7C 3K8</PostalCode>
+					<City>Thunder Bay</City>
+					<Province>Ontario</Province>
+					<Directions/>
+					<AdditionalInfo/>
+				</ShippingAddress>
+			</Delivery>
+		</DeliveryOrPickup>
+		<VerbalOrderConfirmation>false</VerbalOrderConfirmation>
+		<Requestor RequestorType="CCAC">
+			<ProviderRequestor>
+				<OrganizationName/>
+				<ContactName/>
+				<ContactPhoneNumber/>
+			</ProviderRequestor>
+			<CCACRequestor>
+				<ContactName>Karusewicz, Christy</ContactName>
+				<ContactPhoneNumber/>
+			</CCACRequestor>
+		</Requestor>
+		<CCACReferenceNumber/>
+	</Order>
+	<CCACContact>
+		<CaseloadCaseManagerName>Cook, Caitlyn</CaseloadCaseManagerName>
+		<ReferralCaseloadTeam>Short Stay</ReferralCaseloadTeam>
+	</CCACContact>
+	<Client>
+		<ClientIdentifier>6662726</ClientIdentifier>
+		<BillingReferenceNumber>660214449</BillingReferenceNumber>
+		<FirstName>Carlton</FirstName>
+		<SurName>Meekis</SurName>
+		<PreferredLanguage>English</PreferredLanguage>
+		<Gender>Male</Gender>
+		<ClientAddress>
+			<Type>Home</Type>
+			<BuildingName/>
+			<SuiteNumber>24</SuiteNumber>
+			<StreetNumber>111</StreetNumber>
+			<StreetName>Southern Ave </StreetName>
+			<PostalCode>P7C 3K8</PostalCode>
+			<City>Thunder Bay</City>
+			<Province>Ontario</Province>
+			<Directions/>
+			<AdditionalInfo/>
+		</ClientAddress>
+		<ClientPhone>
+			<Phone>
+				<TelephoneNumber>0000000000</TelephoneNumber>
+				<PhoneLocation>Home</PhoneLocation>
+			</Phone>
+		</ClientPhone>
+	</Client>
+	<EquipmentAndSupplyItem>
+		<LineItem LineItemType="Finance Charges" RecordType="Supply">
+			<PurchaseOrderLineNumber>11638880</PurchaseOrderLineNumber>
+			<ContractCode>MGEQ</ContractCode>
+			<VendorItemCode>FIN010</VendorItemCode>
+			<ItemClass>Normal</ItemClass>
+			<LineItemUnitCode>Unit</LineItemUnitCode>
+			<ItemDescription>Service Charge - Thunder Bay Pickup</ItemDescription>
+			<RentalPeriod>
+				<RentalStartDate>2022-01-11</RentalStartDate>
+				<RentalEndDate>0001-01-01</RentalEndDate>
+			</RentalPeriod>
+			<OrderedDateTime>2022-01-10T10:01:11.259-05:00</OrderedDateTime>
+			<ItemQuantity>1</ItemQuantity>
+			<ItemChargeAmount>24.75</ItemChargeAmount>
+			<ItemStatus>Ordered</ItemStatus>
+			<AdditionalInformation/>
+		</LineItem>
+	</EquipmentAndSupplyItem>
+</EquipmentAndSupplyOrder>

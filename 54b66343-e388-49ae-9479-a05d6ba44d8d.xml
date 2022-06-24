@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EquipmentAndSupplyOrder xmlns:f="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMContact" xmlns:g="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMEquipmentSupplyOrderItem" xmlns:h="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientAllergy" xmlns:i="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientSafetyIssue" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:j="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMHealthCard" xmlns:k="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientDiagnosis" xmlns:a="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMEquipmentSupplyOrderHeader" xmlns:l="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMDiagnosisEncode" xmlns:b="http://Oaccac.HPG.Biztalk.Schemas.MessageContracts.CCMEquipmentSupplyOrderRequest" xmlns:m="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientRiskCode" xmlns:c="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.KeyValue" xmlns:d="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMAddress" xmlns:e="http://Oaccac.HPG.Biztalk.Schemas.DataContracts.CCMClientDemographics" Version="2.13">
+	<MessageTrackingID>54b66343-e388-49ae-9479-a05d6ba44d8d</MessageTrackingID>
+	<Sender>
+		<Organization Code="NSM" Type="CCAC">
+			<Name>NSM LHIN</Name>
+			<OwnerOrganization Code="NSM" Type="CCAC">
+				<Name>NSM LHIN</Name>
+			</OwnerOrganization>
+		</Organization>
+	</Sender>
+	<Destination>
+		<Organization Code="2016" Type="Vendor">
+			<Name>Bayshore Specialty Rx 2016</Name>
+			<OwnerOrganization Code="NSM" Type="CCAC">
+				<Name>NSM LHIN</Name>
+			</OwnerOrganization>
+		</Organization>
+	</Destination>
+	<CcacCode>NSM</CcacCode>
+	<TransmissionDateTime>2022-01-26T09:17:15.681-05:00</TransmissionDateTime>
+	<Order>
+		<OrganizationCode>2016</OrganizationCode>
+		<PurchaseOrderNumber>70967311.1</PurchaseOrderNumber>
+		<PurchaseOrderDateTime>2022-01-06T09:17:15.681-05:00</PurchaseOrderDateTime>
+		<PurchaseOrderCancelDateTime>0001-01-01T09:17:15.681-05:00</PurchaseOrderCancelDateTime>
+		<RequestType>E &amp; S - Initial Order</RequestType>
+		<DeliveryOrPickup>
+			<Delivery>
+				<DeliveryDateTime>2022-01-08T09:17:15.681-05:00</DeliveryDateTime>
+				<DeliveryTimeInstructions/>
+				<DeliveryPriority>Med Delivery</DeliveryPriority>
+				<DeliveryPriorityInstructions>SM04419678</DeliveryPriorityInstructions>
+				<ShippingAddress>
+					<Type>Shipping</Type>
+					<BuildingName/>
+					<SuiteNumber/>
+					<StreetNumber>1123</StreetNumber>
+					<StreetName>Southwood Rd </StreetName>
+					<PostalCode>P0E 1N0</PostalCode>
+					<City>Severn Bridge</City>
+					<Province>Ontario</Province>
+					<Directions/>
+					<AdditionalInfo/>
+				</ShippingAddress>
+			</Delivery>
+		</DeliveryOrPickup>
+		<VerbalOrderConfirmation>true</VerbalOrderConfirmation>
+		<Requestor RequestorType="CCAC">
+			<ProviderRequestor>
+				<OrganizationName/>
+				<ContactName/>
+				<ContactPhoneNumber/>
+			</ProviderRequestor>
+			<CCACRequestor>
+				<ContactName>Team, SCD</ContactName>
+				<ContactPhoneNumber/>
+			</CCACRequestor>
+		</Requestor>
+		<CCACReferenceNumber/>
+	</Order>
+	<CCACContact>
+		<CaseloadCaseManagerName>Flowerday-Payne, Sandra</CaseloadCaseManagerName>
+		<ReferralCaseloadTeam>Short Stay</ReferralCaseloadTeam>
+	</CCACContact>
+	<Client>
+		<ClientIdentifier>13294666</ClientIdentifier>
+		<BillingReferenceNumber>640360088</BillingReferenceNumber>
+		<FirstName>Loraine</FirstName>
+		<SurName>Nawrocki</SurName>
+		<PreferredLanguage>English</PreferredLanguage>
+		<Gender>Female</Gender>
+		<ClientAddress>
+			<Type>Home</Type>
+			<BuildingName/>
+			<SuiteNumber>90</SuiteNumber>
+			<StreetNumber>203</StreetNumber>
+			<StreetName>Lake Temagami</StreetName>
+			<PostalCode>P0H 2H0</PostalCode>
+			<City>TEMAGAMI</City>
+			<Province>Ontario</Province>
+			<Directions/>
+			<AdditionalInfo/>
+		</ClientAddress>
+		<ClientPhone>
+			<Phone>
+				<TelephoneNumber>7052378380</TelephoneNumber>
+				<PhoneLocation>Home</PhoneLocation>
+			</Phone>
+		</ClientPhone>
+	</Client>
+	<EquipmentAndSupplyItem>
+		<LineItem LineItemType="Finance Charges" RecordType="Supply">
+			<PurchaseOrderLineNumber>503326882</PurchaseOrderLineNumber>
+			<ContractCode>2016</ContractCode>
+			<VendorItemCode>MEDSWKDEL</VendorItemCode>
+			<ItemClass>Normal</ItemClass>
+			<LineItemUnitCode>Unit</LineItemUnitCode>
+			<ItemDescription>Medication Only - Weekend or Holiday Delivery</ItemDescription>
+			<RentalPeriod>
+				<RentalStartDate>2022-01-08</RentalStartDate>
+				<RentalEndDate>0001-01-01</RentalEndDate>
+			</RentalPeriod>
+			<OrderedDateTime>2022-01-06T09:17:15.681-05:00</OrderedDateTime>
+			<ItemQuantity>1</ItemQuantity>
+			<ItemChargeAmount>30</ItemChargeAmount>
+			<ItemStatus>Ordered</ItemStatus>
+			<AdditionalInformation/>
+		</LineItem>
+	</EquipmentAndSupplyItem>
+</EquipmentAndSupplyOrder>
